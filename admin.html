@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="css2\stylelogo.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap4/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="css/admin.css">
+
+
+  </head>
+  <body>
+
+    <input type="checkbox" id="check">
+    <!--header area start-->
+    <header >
+      <label for="check">
+        <i class="fas fa-bars" id="sidebar_btn"></i>
+      </label>
+      <div class="left_area" style="margin-top: -40px;" >
+        <h3>Quản lý <span>Trang</span></h3>
+      </div>
+      <div class="right_area">
+        <a href="#" class="logout_btn">Logout</a>
+      </div>
+    </header>
+    <!--header area end-->
+    <!--sidebar start-->
+    <div class="sidebar">
+      <center>
+        <img src="image/logo.png" class="profile_image" alt="">
+        <h4>Hoang Nguyen</h4>
+      </center>
+      <a href="./admin.html" style="background-color: green"><i class="fas fa-desktop" ></i><span>Dashboard</span></a>
+      <a href="#"><i class="fas fa-cogs"></i><span>Components</span></a>
+      <a href="#"><i class="fas fa-table"></i><span>Tables</span></a>
+      <a href="#"><i class="fas fa-th"></i><span>Forms</span></a>
+      <a href="#"><i class="fas fa-info-circle"></i><span>About</span></a>
+      <a href="#"><i class="fas fa-sliders-h"></i><span>Settings</span></a>
+    </div>
+    <!--sidebar end-->
+
+    <div class="content">
+    <div class="container-2">
+     <div id="page-wrapper">   
+      <div class="row">
+     <div class="col-md-12">
+      <div class="page-title">
+       <h2>Dashboard<small>Content Overview</small></h2>
+        <ol class="breadcrumb">
+         <li class="active"><i class="fa fa-dashboard"></i> Dashboard</li>
+          
+        </ol>
+       </div>
+      </div>
+     </div> 
+                                                 
+        <div class="row" >
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="circle-tile">
+                            <a href="#">
+                                <div class="circle-tile-heading dark-blue">
+                                    <i class="fa fa-users fa-fw fa-3x"></i>
+                                </div>
+                            </a>
+                            <div class="circle-tile-content dark-blue">
+                                <div class="circle-tile-description text-faded">
+                                    Users
+                                </div>
+                                <div class="circle-tile-number text-faded">
+                                    265
+                                    <span id="sparklineA"></span>
+                                </div>
+                                <a href="#" class="circle-tile-footer">More Info <i class="fa fa-chevron-circle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="circle-tile">
+                            <a href="#">
+                                <div class="circle-tile-heading green">
+                                    <i class="fa fa-money fa-fw fa-3x"></i>
+                                </div>
+                            </a>
+                            <div class="circle-tile-content green">
+                                <div class="circle-tile-description text-faded">
+                                    Revenue
+                                </div>
+                                <div class="circle-tile-number text-faded">
+                                    $32,384
+                                </div>
+                                <a href="#" class="circle-tile-footer">More Info <i class="fa fa-chevron-circle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="circle-tile">
+                            <a href="#">
+                                <div class="circle-tile-heading orange">
+                                    <i class="fa fa-bell fa-fw fa-3x"></i>
+                                </div>
+                            </a>
+                            <div class="circle-tile-content orange">
+                                <div class="circle-tile-description text-faded">
+                                    Alerts
+                                </div>
+                                <div class="circle-tile-number text-faded">
+                                    9 New
+                                </div>
+                                <a href="#" class="circle-tile-footer">More Info <i class="fa fa-chevron-circle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="circle-tile">
+                            <a href="#">
+                                <div class="circle-tile-heading blue">
+                                    <i class="fa fa-tasks fa-fw fa-3x"></i>
+                                </div>
+                            </a>
+                            <div class="circle-tile-content blue">
+                                <div class="circle-tile-description text-faded">
+                                    Tasks
+                                </div>
+                                <div class="circle-tile-number text-faded">
+                                    10
+                                    <span id="sparklineB"></span>
+                                </div>
+                                <a href="#" class="circle-tile-footer">More Info <i class="fa fa-chevron-circle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="circle-tile">
+                            <a href="#">
+                                <div class="circle-tile-heading red">
+                                    <i class="fa fa-shopping-cart fa-fw fa-3x"></i>
+                                </div>
+                            </a>
+                            <div class="circle-tile-content red">
+                                <div class="circle-tile-description text-faded">
+                                    Orders
+                                </div>
+                                <div class="circle-tile-number text-faded">
+                                    24
+                                    <span id="sparklineC"></span>
+                                </div>
+                                <a href="#" class="circle-tile-footer">More Info <i class="fa fa-chevron-circle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6">
+                        <div class="circle-tile">
+                            <a href="#">
+                                <div class="circle-tile-heading purple">
+                                    <i class="fa fa-comments fa-fw fa-3x"></i>
+                                </div>
+                            </a>
+                            <div class="circle-tile-content purple">
+                                <div class="circle-tile-description text-faded">
+                                    Mentions
+                                </div>
+                                <div class="circle-tile-number text-faded">
+                                    96
+                                    <span id="sparklineD"></span>
+                                </div>
+                                <a href="#" class="circle-tile-footer">More Info <i class="fa fa-chevron-circle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                                     
+        
+        
+    </div><!-- page-wrapper END-->
+   </div><!-- container-1 END-->
+ 
+    
+    
+
+
+ 
+
+    
+    
+    <script src="js/jquery-3.1.1.js"></script>    
+    <script src="js/bootstrap.js"></script>
+    
+
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".sidebar-toggle").click(function(){
+            $(this).hide();
+            
+           $("#user-profil").show();
+            
+           $("#hide-btn").show();
+            
+           $(".container-2").css("width", "85%");
+            
+             
+        });
+        
+        $("#hide-btn").click(function(){
+            $(this).hide();
+            
+           $("#user-profil").hide();
+            
+           $(".sidebar-toggle").show();
+            
+           $(".container-2").css("width", "100%");
+            
+             
+        });
+    });
+</script>
+
+</div>
+
+  </body>
+</html>
+                           

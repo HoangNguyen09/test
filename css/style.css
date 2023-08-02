@@ -1,0 +1,208 @@
+
+body {
+	background-color: 	black;
+}
+
+*{
+	margin: 0;
+	padding: 0px;
+}
+
+a{
+	text-decoration: none ;
+	color : white;
+
+}
+.contaner {
+	width:  1200px ;
+	margin: auto ;
+}
+ .logo {
+ 	text-align: center;
+ 	width: 100% ;
+ }
+
+ .logo .chuchay {
+ 	width: 100% ;
+ 	color: yellow ;
+ 	font-style: italic;
+
+ }
+
+.logo  img   {
+ 
+  text-align:  center; 
+  width: 100% ;
+  height: 300px; 
+  position: relative; 
+
+  }
+ 
+ .logo .dathang {
+   position: absolute; 
+   top :240px ;
+   left: 1100px ;
+   font-size: 30px ; 
+
+ } 
+
+ .dathang input {
+ 	
+ 	font-size: 30px ;
+ 	
+ 	border-radius: 20px ;
+    font-style: italic;
+    color:red;
+    
+ }
+
+
+ 
+
+
+.menu {
+	border-style: groove;
+	border-color:  red ;
+	border-radius: 6px 6px 0 0 ;
+	border-bottom: none ;
+	overflow: hidden;
+	margin-left: 40px;
+	margin-right: 40px;
+
+
+}
+.menu ul li {
+	color: yellow;
+    text-align:  center;
+	display: inline-block; 
+	padding: 30px 60px ;
+	text-transform: uppercase;
+	text-decoration: none ;
+
+}
+.menu a:hover {
+	background-color: black ;
+	color: red ;
+	font-weight: bold;
+}
+ 
+#slice {
+	width: 70% ;
+	height : 300px ;
+}
+#slide-show {
+	width: 80% ;
+	height: 400px ;
+	margin: 0 auto ;
+	position: relative; 
+	margin-top: 100px ;
+
+
+}
+.anh {
+	max-width: 100% ;
+	min-width: 100%;
+	max-height: 100% ;
+	min-height: 100% ; 
+}
+
+.btn-slide {
+	background-color: none ;
+	size: 100px ;
+	position: absolute; 
+	top: 370px;
+	left: 590px;
+
+	color: black;
+	z-index: 
+
+
+}
+
+
+
+ .content {
+ 	margin-top: 30px ;
+ 	padding-left: 60px;
+
+ }
+#contentleft {
+	padding-top: 20px;
+  font-size: 30px;	
+  width: 600px ;
+  height: 650px;
+  margin-left: 200px ;
+  float: left;
+  background-image :url("../anh/anh3.png"); ; 
+}
+#contentright {
+padding-top: 20px;
+margin-left: 20px; 
+font-size: 30px;	
+width: 380px ;
+height: 315px;
+float: left;
+background-image: url('../anh/buffalochiken.png');
+color: white ;
+}
+
+#bootom {
+margin-top: 20px;
+margin-left: 20px; 
+font-size: 30px;	
+width: 380px ;
+height: 315px;
+float: left;
+background-image: url('../anh/anh6.png');
+color: white 
+}
+
+.banner {
+	margin-top: 20px;
+ 	margin-top: 40px ;
+ 	padding-left: 60px;
+ 	padding-top: 30px;
+}
+#bannerleft {
+	margin-top: 20px;
+	padding-top: 30px;
+  font-size: 30px;	
+  width: 600px ;
+  height: 570px;
+  margin-left: 200px ;
+  float: left;
+  background-image :url("../anh/lamacun.png"); ; 
+}
+#bannerright {
+	margin-top: 20px;
+	padding-top: 30px;
+margin-left: 20px; 
+font-size: 30px;	
+width: 380px ;
+height: 250px;
+float: left;
+background-image: url('../anh/raucu.png');
+color: white ;
+}
+
+#bannerbootom {
+	margin-top: 10px;
+	padding-top: 10px;
+margin-top: 20px;
+margin-left: 20px; 
+font-size: 30px;	
+width: 380px ;
+height: 290px;
+float: left;
+background-image: url('../anh/chickenpz.png');
+color: white 
+}
+
+.footer
+{  
+	
+	margin-top: 20px;
+ 	margin-top: 40px ;
+ 	padding-left: 60px;
+ 	padding-top: 30px;
+}

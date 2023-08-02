@@ -1,0 +1,25 @@
+body{
+	background: url('https://www.eef.or.th/wp-content/uploads/2019/03/bg-focus-2ss.png');
+}
+
+#DiaChi ul li img {
+	height: 50px;
+	width: 50px;
+}
+
+#DiaChi ul {
+	margin: 0px;
+	padding: 0px;
+}
+#DiaChi ul li{
+	list-style: none;
+	float: left;
+	padding: 10px 20px 0px 20px;
+	border-right: 1px solid #f1f1f1;
+	font-family: Time new roman;
+	size: 15px;
+}
+.container{
+	margin-top:150px;
+
+}

@@ -1,0 +1,44 @@
+
+body{
+    width: 700px;
+    margin: 0 auto;
+}
+#mk{
+    width: 340px;
+    float: left;
+}
+#rmk{
+    width: 340px;
+    float: right;
+}
+#clr{
+    clear: left;
+}
+.control i{
+    position: absolute;
+    margin-top: -35px;
+    visibility: hidden;
+    margin-left: 665px;
+    
+}
+#formdk .tcheck{
+    margin-left: 665px;
+}
+#formdk .bcheck{
+    margin-left: 306px;
+}
+
+.control.succ input{
+    border: 1px solid chartreuse;
+}
+.control.erro input{
+    border: 1px solid red;
+}
+.control.succ .csucc{
+    color: chartreuse;
+    visibility: visible;
+}
+.control.erro .cerro{
+    color: red;
+    visibility: visible;
+}
